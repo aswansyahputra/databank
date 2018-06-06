@@ -25,7 +25,7 @@ ui <- tagList(
         "Data Bank",
         theme = shinytheme("cerulean"),
         navbarMenu(
-          "What do you want to see?",
+          "What do you want to know?",
           tabPanel(
             "Tell me about Rock!",
             serveDataUI("rock", "Handful of Rock")
